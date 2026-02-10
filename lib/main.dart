@@ -16,7 +16,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const LoginScreen(), //  CAMBIO CLAVE
+
+      home: const LoginScreen(), // 👈 CAMBIO CLAVE
     );
   }
 }
